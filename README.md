@@ -25,7 +25,7 @@ Check out my GitHub profile at [github.com/Harshdubey5](https://github.com/Harsh
 
 ### Contact
 
-You can reach me at [harshdubey8689@gmail.com](mailto:harshdubey8689@gmail.com) or call me at [+91 9836229804](tel:+919903595895). Let's connect and build something great together!
+You can reach me at [harshdubey8689@gmail.com](mailto:harshdubey8689@gmail.com) or call me at [+91 9903595895](tel:+919903595895). Let's connect and build something great together!
 
 
 
