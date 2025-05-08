@@ -41,8 +41,9 @@ You can reach me at [harshdubey8689@gmail.com](mailto:harshdubey8689@gmail.com) 
   <img height="40"  src="https://img.shields.io/badge/-DSA-orange">
   <img height="40"  src="https://img.shields.io/badge/-Git-lightgreen?logo=git&logoColor=black">
   <img height="40"  src="https://img.shields.io/badge/-Github-darkgreen?logo=github&logoColor=black"><br>
-  <img height="40"  src="https://img.shields.io/badge/-Markdown-black?logo=markdown&logoColor=white">
   <img height="40" src="https://img.shields.io/badge/-GetX-7E57C2?logo=flutter&logoColor=white">
+  <img height="40" src="https://img.shields.io/badge/-Provider-0A7E8C?logo=flutter&logoColor=white">
+
 
 </p>
 
