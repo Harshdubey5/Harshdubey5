@@ -42,6 +42,8 @@ You can reach me at [harshdubey8689@gmail.com](mailto:harshdubey8689@gmail.com) 
   <img height="40"  src="https://img.shields.io/badge/-Git-lightgreen?logo=git&logoColor=black">
   <img height="40"  src="https://img.shields.io/badge/-Github-darkgreen?logo=github&logoColor=black"><br>
   <img height="40"  src="https://img.shields.io/badge/-Markdown-black?logo=markdown&logoColor=white">
+  <img height="40" src="https://img.shields.io/badge/-GetX-7E57C2?logo=flutter&logoColor=white">
+
 </p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Harshdubey5&show_icons=true&locale=en" alt="Harshdubey5" /></p>
