@@ -66,3 +66,55 @@ How session auth really works (cookies, regeneration, storage), cross-user acces
   <a href="https://www.linkedin.com/in/harsh-dubey-a19165256/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:harshdubey8689@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
+
+<h1 align="center">DevBoard</h1>
+<p align="center">A full-stack project management platform, built from scratch to learn how a real product fits together, from database to UI.</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+</p>
+
+<p align="center"><a href="LIVE-LINK">Live demo</a> · <a href="#architecture">Architecture</a> · <a href="#security">Security</a> · <a href="#run-locally">Run locally</a></p>
+
+![DevBoard dashboard](docs/dashboard.png)
+
+## Status
+
+| Area | State |
+|---|---|
+| Registration, login, logout, session restore | ✅ Done |
+| Owner-only project CRUD | ✅ Done |
+| API tests (anonymous access, cross-user isolation) | ✅ Done |
+| Frontend tests, CSRF/CORS review, UI polish | 🚧 In progress |
+| Deployment | 🚧 In progress |
+| Tasks, assignments, comments | 🗺️ Next |
+| Redis, Docker, AWS, CI/CD | 🗺️ Planned |
+
+## Architecture
+
+Request → **routes** → **controllers** → **services** (business logic) → **data access** → PostgreSQL
+
+Keeping these layers separate means routing never touches SQL and business rules can be tested without HTTP.
+
+## Security
+
+- Passwords hashed with **Argon2**
+- **Server-side sessions** stored in PostgreSQL, regenerated on login, with secure cookie settings
+- **Owner-only authorization**: projects belong to the authenticated user, and update and delete check both project ID and owner ID
+- **Tests** cover anonymous access and one user trying to read or change another's projects
+
+## Tech
+
+React, TypeScript, Vite · Node.js, Express · PostgreSQL with migrations · Input validation and centralized error handling
+
+## Run locally
+
+```bash
+git clone https://github.com/Harshdubey5/devboard.git
+cd devboard
+# install, set up .env from .env.example, run migrations, start API and web
+```
